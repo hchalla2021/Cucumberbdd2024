@@ -10,4 +10,5 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","html:target/Cucumber_report/CucumberReport2024.html"}
 )
 public class RunnerClass {
+    //This is class
 }

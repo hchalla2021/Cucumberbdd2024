@@ -12,7 +12,8 @@ public class SearchProductPage {//2024
     WebElement searchtext;
     @FindBy(xpath = "//*[@id=\"nav-search-submit-button\"]")
     WebElement searchbtn;
-
+    @FindBy(xpath = "//*[@id=\"nav-search-submit-button\"]")
+    WebElement searchbtn123;
   public void Enterproduct(String prdtype) {
       searchtext.sendKeys(prdtype);
       searchbtn.click();
